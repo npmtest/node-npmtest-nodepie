@@ -35,41 +35,55 @@
 ```json
 
 {
-    "name": "nodepie",
-    "description": "RSS/Atom parser for Node.JS",
-    "version": "0.7.0",
-    "author": "Andris Reinman",
-    "maintainers": [
-        {
-            "name": "andris"
-        }
-    ],
-    "homepage": "http://github.com/andris9/nodepie",
-    "repository": {
-        "type": "git",
-        "url": "http://github.com/andris9/nodepie.git"
+    "author": {
+        "name": "Andris Reinman"
     },
-    "main": "./lib/nodepie",
+    "bugs": {
+        "url": "https://github.com/andris9/nodepie/issues"
+    },
+    "dependencies": {
+        "encoding": "^0.1.11",
+        "fetch": "^0.3.6",
+        "he": "^0.5.0",
+        "xml2json": "^0.9.0"
+    },
+    "description": "RSS/Atom parser for Node.JS",
+    "devDependencies": {
+        "nodeunit": "*"
+    },
+    "directories": {},
+    "dist": {
+        "shasum": "4535e722b07692fcf6a091f526e57a79e7f319ec",
+        "tarball": "https://registry.npmjs.org/nodepie/-/nodepie-0.7.0.tgz"
+    },
+    "gitHead": "258cdfc3436678308df44c1062f694d98c39cc90",
+    "homepage": "http://github.com/andris9/nodepie",
+    "keywords": [
+        "rss",
+        "feed",
+        "atom"
+    ],
     "licenses": [
         {
             "type": "MIT",
             "url": "http://github.com/andris9/nodepie/blob/master/LICENSE"
         }
     ],
-    "devDependencies": {
-        "nodeunit": "*"
+    "main": "./lib/nodepie",
+    "maintainers": [
+        {
+            "name": "andris"
+        }
+    ],
+    "name": "nodepie",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/andris9/nodepie.git"
     },
-    "dependencies": {
-        "xml2json": "^0.9.0",
-        "fetch": "^0.3.6",
-        "he": "^0.5.0",
-        "encoding": "^0.1.11"
-    },
-    "keywords": [
-        "rss",
-        "feed",
-        "atom"
-    ]
+    "scripts": {},
+    "version": "0.7.0",
+    "bin": {}
 }
 ```
 
